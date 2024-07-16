@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 2px solid #444;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #f90;
+    padding: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f90;
+}
+
+.hero {
+    background: url('images/pirate-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero .btn {
+    background: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#buy ol.buy-steps {
+    list-style: none;
+    padding-left: 0;
+}
+
+#buy ol.buy-steps li {
+    background: #121212;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#community {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#community img {
+    margin-top: 20px; /* Adds space above the Telegram logo */
+    width: 40px; /* Adjusts the width of the Telegram logo */
+    height: auto; /* Keeps the aspect ratio of the logo */
+    transition: transform 0.3s ease; /* Smooth transform effect on hover */
+}
+
+#community a:hover img {
+    transform: scale(1.1); /* Slightly enlarges the logo on hover */
+}
